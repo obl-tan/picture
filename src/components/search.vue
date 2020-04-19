@@ -1,7 +1,7 @@
 <template>
-    <div align="around">
-        <div class="col-8 ">
-            <input type="text" class="placeholder"  placeholder="搜书名" > 
+     <div align="center">
+        <div >
+            <input type="text" class="placeholder"  placeholder="搜书名"  style="width:1000px;"> 
             <q-btn dense flat icon="search" />
            
         </div>

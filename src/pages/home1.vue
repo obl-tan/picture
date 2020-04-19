@@ -25,7 +25,7 @@
             </b>
         </h3>
 
-
+    <search/>
      <carousel/>
     <card1/>
     <card2/>
@@ -50,6 +50,7 @@
     import carousel from 'components/carousel'
      import card1 from 'components/card1'
        import card2 from 'components/card2'
+        import search from 'components/search'
     // import carousel from 'src/components/carousel'
 
 export default {
@@ -64,7 +65,8 @@ export default {
  components:{
         carousel,
         card1,
-        card2
+        card2,
+        search
     },
 }
 
