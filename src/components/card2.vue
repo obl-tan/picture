@@ -1,13 +1,13 @@
 <template>
-    <div class="q-pa-md row items-start q-gutter-md">
-     <q-card>  
+ <div class="q-pa-md row items-start q-gutter-md">
+     <q-card style="width:1000px;">  
          <div>
              <h4><b><i>新书推荐</i></b></h4>
              </div>
         <q-card class="my-card">
           <q-card-section horizontal>
             <q-img
-              class="col-5"
+              class="col-8"
               src="https://cdn.quasar.dev/img/parallax1.jpg"
             />
 
@@ -23,21 +23,9 @@
           </q-card-section>
 
           <q-separator />
-
-          <q-card-actions>
-            <q-btn flat round icon="event" />
-            <q-btn flat>
-              5:30PM
-            </q-btn>
-            <q-btn flat>
-              7:00PM
-            </q-btn>
-            <q-btn flat color="primary">
-              Reserve
-            </q-btn>
-          </q-card-actions>
         </q-card>
     </q-card> 
+   
     </div>
 
 </template>

@@ -25,13 +25,13 @@ const routes = [
     
   },
   {
-    path:'/card-1',
-    component: () => import('components/card-1.vue'),
+    path:'/card1',
+    component: () => import('components/card1.vue'),
     
   },
   {
-    path:'/card-2',
-    component: () => import('components/card-2.vue'),
+    path:'/card2',
+    component: () => import('components/card2.vue'),
     
   },
   {

@@ -24,7 +24,12 @@
                 </i>    
             </b>
         </h3>
-    
+
+
+     <carousel/>
+    <card1/>
+    <card2/>
+
     </q-banner>
      <q-tabs
         v-model="tab"
@@ -34,13 +39,17 @@
         <q-tab name="alarms" icon="alarm" label="Alarms" />
         <q-tab name="movies" icon="movie" label="Movies" />
       </q-tabs>
+
+     
 </div>
 
 </template>
 
 <script>
     import {fasBatteryFull } from '@quasar/extras/fontawesome-v5'
-    import carousel from 'src/components/carousel'
+    import carousel from 'components/carousel'
+     import card1 from 'components/card1'
+       import card2 from 'components/card2'
     // import carousel from 'src/components/carousel'
 
 export default {
@@ -53,7 +62,9 @@ export default {
     // carousel
 //   },
  components:{
-        "carousel":carousel
+        carousel,
+        card1,
+        card2
     },
 }
 
