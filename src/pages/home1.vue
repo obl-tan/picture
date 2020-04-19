@@ -24,7 +24,7 @@
                 </i>    
             </b>
         </h3>
-
+<!-- 引用 components-->
     <search/>
      <carousel/>
     <card1/>

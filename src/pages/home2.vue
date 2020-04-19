@@ -54,7 +54,7 @@
     >
       <q-carousel-slide :name="1" class="column no-wrap">
         <div class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap">
-            <!-- 引用图片 -->
+            <!-- 引用图片,引用图片失败 -->
           <q-img class="col-6 full-height" src="https://cdn.quasar.dev/img/mountains.jpg" />
           <q-img class="col-6 full-height" src="https://cdn.quasar.dev/img/parallax1.jpg" />
         </div>
